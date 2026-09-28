@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sid-lifecycle-code"
+version = "0.1.0"
+description = "Code accompanying Embed, Quantize, Update: Understanding the Semantic ID Lifecycle"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["incremental_codebook"]
